@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c49edd0.css",
-    "main.js": "/portfolio/static/js/main.e3c98285.js",
+    "main.css": "/portfolio/static/css/main.a50c78ac.css",
+    "main.js": "/portfolio/static/js/main.a0d8b915.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/black_hole.gif": "/portfolio/static/media/black_hole.b826756c57a84596bb59.gif",
     "static/media/weblogo.png": "/portfolio/static/media/weblogo.95dff597bb1f1b9ee556.png",
     "static/media/hk_shade.png": "/portfolio/static/media/hk_shade.31d48126d4044e768917.png",
+    "static/media/hk_abyss_shriek.png": "/portfolio/static/media/hk_abyss_shriek.909a6801927c201da23e.png",
     "static/media/Lord_of_Shades.png": "/portfolio/static/media/Lord_of_Shades.b222d13e3b6b9aaa2615.png",
     "static/media/iconvector.svg": "/portfolio/static/media/iconvector.10b177862b1445bb6bd60aa016d75db1.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.2def6ca73b90e7c2a256971d0c5dbff4.svg",
@@ -15,12 +16,12 @@
     "static/media/spotify.svg": "/portfolio/static/media/spotify.6d5f1861ea87a25a622b696cd273f8a2.svg",
     "static/media/github.svg": "/portfolio/static/media/github.3fa90eade14867d801bbed4a49c44751.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.08cd8487bc9434902362cd775b459a1f.svg",
-    "main.1c49edd0.css.map": "/portfolio/static/css/main.1c49edd0.css.map",
-    "main.e3c98285.js.map": "/portfolio/static/js/main.e3c98285.js.map",
+    "main.a50c78ac.css.map": "/portfolio/static/css/main.a50c78ac.css.map",
+    "main.a0d8b915.js.map": "/portfolio/static/js/main.a0d8b915.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c49edd0.css",
-    "static/js/main.e3c98285.js"
+    "static/css/main.a50c78ac.css",
+    "static/js/main.a0d8b915.js"
   ]
 }
