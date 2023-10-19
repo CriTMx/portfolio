@@ -1,0 +1,64 @@
+#textLink
+{
+    font-weight: 300;
+    color: #afc2d5;
+    font-size: 24px;
+    
+}
+
+#textLink:hover, #textLink:active, #textLink:focus
+{
+    color: #afc2d5;
+    /* border: 1px solid; */
+    /* border-radius: 10px; */
+    animation: cycleColor 1s linear infinite;
+}
+
+@keyframes cycleColor {
+    0% {
+        color: #afc2d5;
+        text-shadow: 1px 1px 7px #b499da;
+    }
+    25% {
+        color: #b499da;
+        text-shadow: 1px 1px 7px #5fadec;
+    }
+
+    50% {
+        color: #5fadec;
+        text-shadow: 1px 1px 7px #8c7bda;
+    }
+
+    75% {
+        color: #8c7bda;
+        text-shadow: 1px 1px 7px #afc2d5;
+    }
+
+    100% {
+        color: #afc2d5;
+        text-shadow: 1px 1px 7px #b499da;
+    }
+}
+
+.navbar
+{
+    backdrop-filter: blur(20px);
+    padding-bottom: 0;
+}
+
+.navbar-nav
+{
+    gap: 30px;
+}
+
+.icon-svg
+{
+    padding: 0;
+    filter: invert(62%) sepia(12%) saturate(1064%) hue-rotate(223deg) brightness(103%) contrast(89%);
+    transition: 0.8s;
+}
+
+.icon-svg:hover
+{
+    filter: invert(80%) sepia(10%) saturate(1280%) hue-rotate(179deg) brightness(99%) contrast(90%);
+}

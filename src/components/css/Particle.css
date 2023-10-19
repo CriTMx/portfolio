@@ -1,0 +1,22 @@
+#tsparticles, .particle-container img
+{
+    /* background-clip: border-box; */
+    position: absolute;
+}
+
+#tsparticles
+{
+    z-index: 0;
+}
+
+.particle-container img
+{
+    z-index: 1;
+}
+
+.particle-container
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

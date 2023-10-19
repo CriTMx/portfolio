@@ -1,0 +1,27 @@
+.about-tab
+{
+    margin-bottom: 80px;
+}
+
+.about-h1
+{
+    font-size: 50px;
+    color: #b499da;
+    animation: cycleColor linear 2s infinite;
+}
+
+.about-text
+{
+    color: #d3c7e4;
+}
+
+#HKShadeCol
+{
+    
+}
+
+#HKShadeCol img
+{
+    animation: floating ease-in-out 5s infinite;
+}
+

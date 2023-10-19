@@ -1,0 +1,23 @@
+@keyframes cycleColor
+{
+    0% {
+        color: #b499da;
+        border-color: #b499da;
+    }
+    25% {
+        color: #7e80dd;
+        border-color: #7e80dd;
+    }
+    50% {
+        color: #9aceec;
+        border-color: #9aceec;
+    }
+    75% {
+        color: #dc9aec;
+        border-color: #dc9aec;
+    }
+    100% {
+        color: #b499da;
+        border-color: #b499da;
+    }
+}

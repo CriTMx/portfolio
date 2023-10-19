@@ -1,0 +1,17 @@
+@keyframes floating {
+    0% { 
+        transform: translate(0,  0px); 
+        rotate: 0deg;
+    }
+    50% {
+        transform: translate(0, 15px); 
+        rotate: 5deg;
+    }
+    75% {
+        rotate: -5deg;
+    }
+    100% {
+        transform: translate(0, -0px);
+        rotate: 0deg;
+    }    
+}

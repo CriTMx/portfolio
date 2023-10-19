@@ -1,0 +1,42 @@
+.projects-tab
+{
+
+}
+
+.projects-h1
+{
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 30px;
+    color: #b499da;
+    animation: cycleColor linear 2s infinite;
+}
+
+.projects-text
+{
+    color: #d3c7e4;
+}
+
+.project-link h5
+{
+    color: #d3c7e4;
+    border: 1px solid #d3c7e4;
+    border-radius: 5px;
+    padding: 10px 3px;
+}
+
+.project-link h5:hover
+{
+    animation: cycleColor linear 2s infinite;
+    cursor: pointer;
+}
+
+#HKShadeCol
+{
+    
+}
+
+#HKShadeCol img
+{
+    animation: floating ease-in-out 5s infinite;
+}
+
