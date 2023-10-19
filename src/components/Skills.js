@@ -2,10 +2,10 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 
-import HKShade from './media/hk_shade.png';
+import HKAbyssShriek from './media/hk_abyss_shriek.png';
 
-function About()
-{
+function Skills() {
+
     const particlesInit = useCallback(async engine => {
         console.log(engine);
         await loadFull(engine);
@@ -15,20 +15,21 @@ function About()
         await console.log(container);
     }, []);
 
-    return (
-        <div className="about-tab container mb-5">
-            <div className="row">
-                <div className="col-md-9">
-                    <a id="about">
-                        <h1 className="about-h1 text-start display-4">About</h1>
-                        <p className="about-text text-start">
-                            I am Shlok Aditya Tripathy, known online by the alias 'CriTMx'. Having spent 15+ years of my life gaming, I now aspire to be a cutting-edge game developer aiming to create unique and exciting games, focusing on RPG elements and the like. I also listen to metalcore and dubstep music, watch anime & TV shows, and draw concept art in my spare time.
-                        </p>
-                    </a>
-                </div>
-                <div className="col-md-3 particle-container pt-3 pb-3 d-md-flex d-none justify-content-center" id="HKShadeCol">
-                    <img src={HKShade} width='120px'/>
-                    <Particles id="tsparticles"
+  return (
+    <div className="skills-tab container">
+        <div className="row">
+            <div className="col-md-9">
+                <a id="skills">
+                    <h1 className="skills-h1 text-start display-4">Skills</h1>
+                    <p className="skills-text text-start">
+                        Skills text
+                    </p>
+                </a>
+            </div>
+            <div className="col-md-3 particle-container mb-5 pb-5 d-md-flex d-none" id="HKShadeCol">
+                <img src={HKAbyssShriek} width='350px'/>
+                <Particles id="tsparticles-3"
+                        className=""
                         init={particlesInit}
                         loaded={particlesLoaded}
                         options={
@@ -108,10 +109,10 @@ function About()
                             }
                         }
                     />
-                </div>
             </div>
         </div>
-    )
+    </div>
+  )
 }
 
-export default About;
+export default Skills;

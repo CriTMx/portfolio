@@ -1,0 +1,10 @@
+.logo-alt-text
+{
+    animation: cycleColor 2s linear infinite;
+}
+
+.logo .navbar-brand
+{
+    display: flex;
+    justify-content: center;
+}

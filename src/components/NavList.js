@@ -5,7 +5,7 @@ function NavList()
     return (
         
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-5">
+            <ul className="navbar-nav ms-2 gap-md-1 gap-0">
                 <li className="nav-item">
                     <a className="nav-link" href="#" id="textLink">Home</a>
                 </li>
@@ -19,7 +19,7 @@ function NavList()
                     <a className="nav-link" href="#" id="textLink">Skills</a>
                 </li>
             </ul>
-            <ul className="navbar-nav ms-auto">
+            <ul className="navbar-nav ms-auto icon-list">
                 <li className="nav-item">
                     <a className="nav-link icon-svg" href="https://instagram.com/crit.mx" target='_blank'><IconInsta /></a>
                 </li>

@@ -1,12 +1,28 @@
-#tsparticles, .particle-container img
+#tsparticles, #tsparticles-2, #tsparticles-3, .particle-container img
 {
     /* background-clip: border-box; */
     position: absolute;
 }
 
-#tsparticles
+#tsparticles, #tsparticles-2, #ts-particles-3
 {
     z-index: 0;
+}
+
+#tsparticles
+{
+    top: 35%;
+}
+
+#tsparticles-2
+{
+    top: 35%;
+    left: 20%;
+}
+
+#tsparticles-3
+{
+    top: 100%;
 }
 
 .particle-container img

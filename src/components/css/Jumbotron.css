@@ -16,9 +16,9 @@
 .jumbotron-title
 {
     font-family: 'Rubik Mono One', monospace;
-    font-size: 80px;
+    /* font-size: 80px; */
     color: #b499da;
-    position: absolute;
+    /* position: absolute; */
     top: 35%;
     animation: cycleColor linear 2s infinite;
 }

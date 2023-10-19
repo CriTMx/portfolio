@@ -1,0 +1,9 @@
+.skills-h1
+{
+    animation: cycleColor 2s linear infinite;
+}
+
+.skills-text
+{
+    color: #d3c7e4;
+}

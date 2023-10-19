@@ -5,7 +5,7 @@
 
 .about-h1
 {
-    font-size: 50px;
+    /* font-size: 50px; */
     color: #b499da;
     animation: cycleColor linear 2s infinite;
 }

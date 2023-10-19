@@ -8,17 +8,24 @@ import Particle from "./Particle";
 
 function Projects()
 {
-    const particlesInit = About.particlesInit;
-    const particlesLoaded = About.particlesLoaded;
+    const particlesInit = useCallback(async engine => {
+        console.log(engine);
+        await loadFull(engine);
+        }, []);
+    
+    const particlesLoaded = useCallback(async container => {
+        await console.log(container);
+    }, []);
 
     return (
-        <div className="projects-tab container mb-3">
+        <div className="projects-tab container mb-5">
             <div className="row">
-                <div className="col-md-3 particle-container d-md-flex d-none" id="HKShadeCol">
+                <div className="col-md-3 particle-container pt-3 pb-3 d-md-flex d-none" id="HKShadeCol">
                     <img src={HKLordShade} width='200px'/>
-                    <Particles id="tsparticles"
-                        // init={particlesInit}
-                        // loaded={particlesLoaded}
+                    <Particles id="tsparticles-2"
+                        className=""
+                        init={particlesInit}
+                        loaded={particlesLoaded}
                         options={
                             {
                                 // background: {
@@ -99,7 +106,7 @@ function Projects()
                 </div>
                 <div className="col-md-9 float-end">
                     <a id="projects">
-                        <h1 className="projects-h1 text-end">Projects</h1>
+                        <h1 className="projects-h1 text-end display-4">Projects</h1>
                         <p className="projects-text text-end mb-3">
                             Projects I'm working on or have completed over the years
                         </p>

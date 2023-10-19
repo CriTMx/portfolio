@@ -1,12 +1,12 @@
 .projects-tab
 {
-
+    max-height: max-content;
 }
 
 .projects-h1
 {
     font-family: 'Rubik Mono One', monospace;
-    font-size: 30px;
+    /* font-size: 30px; */
     color: #b499da;
     animation: cycleColor linear 2s infinite;
 }

@@ -1,9 +1,19 @@
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active
+{
+    border: 2px solid #b499da;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active
+{
+    animation: cycleColor 1s linear infinite;
+}
+
 #textLink
 {
     font-weight: 300;
     color: #afc2d5;
     font-size: 24px;
-    
+
 }
 
 #textLink:hover, #textLink:active, #textLink:focus
@@ -48,7 +58,15 @@
 
 .navbar-nav
 {
-    gap: 30px;
+    /* gap: 14px; */
+}
+
+.icon-list
+{
+    margin: 16px 0;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .icon-svg
@@ -61,4 +79,11 @@
 .icon-svg:hover
 {
     filter: invert(80%) sepia(10%) saturate(1280%) hue-rotate(179deg) brightness(99%) contrast(90%);
+}
+
+@media screen and (max-width:1200px) {
+    #textLink
+    {
+        font-size: 18px;
+    }
 }
