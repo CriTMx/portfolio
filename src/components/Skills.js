@@ -78,7 +78,7 @@ function Skills() {
                     </div>
                 </div>
             </div>
-            <div className="col-md-3 particle-container mb-5 pb-5 d-md-flex d-none" id="HKShadeCol">
+            <div className="col-md-3 particle-container mt-5 mb-5 pb-5 d-md-flex d-none" id="HKShadeCol">
                 <img src={HKAbyssShriek} width='300px'/>
                 <Particles id="tsparticles-3"
                         className=""
