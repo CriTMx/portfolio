@@ -10,6 +10,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 
+import 'react-tooltip/dist/react-tooltip.css'
+
 import './components/css/Particle.css';
 import './components/css/body.css';
 import './components/css/Logo.css';
@@ -19,7 +21,9 @@ import './components/css/About.css';
 import './components/css/Projects.css';
 import './components/css/Skills.css';
 import './components/css/AnimCycleColor.css';
+import './components/css/AnimCycleImgFilter.css';
 import './components/css/AnimFloating.css';
+import Scrollspy from './components/Scrollspy';
 
 function App() {
   return (
@@ -27,9 +31,7 @@ function App() {
       {/* <Backdrop /> */}
       <Header />
       <Jumbotron />
-      <About />
-      <Projects />
-      <Skills />
+      <Scrollspy />
     </div>
   );
 }

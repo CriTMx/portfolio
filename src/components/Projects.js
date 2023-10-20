@@ -106,41 +106,42 @@ function Projects()
                 </div>
                 <div className="col-md-9 float-end">
                     <a id="projects">
-                        <h1 className="projects-h1 text-end display-4">Projects</h1>
-                        <p className="projects-text text-end mb-3">
-                            Projects I'm working on or have completed over the years
-                        </p>
-                        <div className="row justify-content-center">
-                            <div className="col-md-6">
-                                <ul className="">
+                        <h1 className="projects-h1 text-end display-4" id="projects">Projects</h1>
+                    </a>
+                    <p className="projects-text text-end mb-3">
+                        Projects I'm working on or have completed over the years
+                    </p>
+                    <div className="row justify-content-center">
+                        <div className="col-md-6 proj-col">
+                            <ul className="ps-0 list-style-none">
+                            <li>
+                                <a className="project-link text-decoration-none mb-3 me-3" href="https://www.curseforge.com/minecraft/mc-mods/simply-redstone-systems" target="_blank">
+                                    <h5>Simply Redstone Systems</h5>
+                                </a> 
+                            </li>
+                            <li>
+                                <a className="project-link text-decoration-none mb-3 me-3" href="https://critmx.github.io/mern-bootstrap/">
+                                    <h5>MERN Certification</h5>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
+                        <div className="col-md-6 proj-col">
+                            <ul className="ps-0 list-style-none">
                                 <li>
-                                    <a className="project-link text-decoration-none mb-3 me-3">
-                                        <h5>Simply Redstone Systems</h5>
+                                    <a className="project-link text-decoration-none mb-3 me-3" href="https://www.behance.net/gallery/166882933/Casual-OC-Misc-Art">
+                                        <h5>Artwork</h5>
                                     </a> 
                                 </li>
                                 <li>
                                     <a className="project-link text-decoration-none mb-3 me-3">
-                                        <h5>MERN Certification</h5>
+                                        <h5>Unity Engine</h5>
                                     </a>
                                 </li>
-                                </ul>
-                            </div>
-                            <div className="col-md-6">
-                                <ul className="">
-                                    <li>
-                                        <a className="project-link text-decoration-none mb-3 me-3">
-                                            <h5>Artwork</h5>
-                                        </a> 
-                                    </li>
-                                    <li>
-                                        <a className="project-link text-decoration-none mb-3 me-3">
-                                            <h5>Unity Engine</h5>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            </ul>
                         </div>
-                    </a>
+                    </div>
+                    
                 </div>
             </div>
         </div>

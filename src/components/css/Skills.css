@@ -3,7 +3,35 @@
     animation: cycleColor 2s linear infinite;
 }
 
+.skillicons
+{
+    text-align: start;
+    margin: 20px auto;
+}
+
+.skillicons img
+{
+    width: 48px;
+    margin: 0 16px 8px 0;
+    filter: invert(77%) sepia(7%) saturate(4464%) hue-rotate(204deg) brightness(91%) contrast(87%);
+}
+
+.skillicons img:hover, .skillicons img:active, .skillicons img:focus
+{
+    cursor: pointer;
+    animation: cycleImgFilter 1s linear infinite;
+}
+
 .skills-text
 {
-    color: #d3c7e4;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 992px) {
+
+    .skillicons img
+    {
+        width: 48px;
+    }
+    
 }

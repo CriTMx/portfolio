@@ -8,3 +8,11 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 392px) {
+    .logo
+    {
+        margin: auto;
+        text-align: center;
+    }    
+}

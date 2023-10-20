@@ -21,4 +21,5 @@
     /* position: absolute; */
     top: 35%;
     animation: cycleColor linear 2s infinite;
+    padding: 0;
 }

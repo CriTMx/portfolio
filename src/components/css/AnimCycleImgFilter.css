@@ -1,0 +1,23 @@
+@keyframes cycleImgFilter
+{
+    0% 
+    {
+        filter: invert(77%) sepia(7%) saturate(4464%) hue-rotate(204deg) brightness(91%) contrast(87%);
+    }
+    25%
+    {
+        filter: invert(56%) sepia(22%) saturate(1119%) hue-rotate(200deg) brightness(90%) contrast(91%);
+    }
+    50%
+    {
+        filter: invert(75%) sepia(89%) saturate(328%) hue-rotate(172deg) brightness(97%) contrast(91%);
+    }
+    75%
+    {
+        filter: invert(86%) sepia(25%) saturate(5227%) hue-rotate(209deg) brightness(97%) contrast(91%);
+    }
+    100%
+    {
+        filter: invert(77%) sepia(7%) saturate(4464%) hue-rotate(204deg) brightness(91%) contrast(87%);
+    }
+}

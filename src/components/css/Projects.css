@@ -11,11 +11,6 @@
     animation: cycleColor linear 2s infinite;
 }
 
-.projects-text
-{
-    color: #d3c7e4;
-}
-
 .project-link h5
 {
     color: #d3c7e4;
@@ -30,6 +25,13 @@
     cursor: pointer;
 }
 
+.proj-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 #HKShadeCol
 {
     
@@ -39,4 +41,5 @@
 {
     animation: floating ease-in-out 5s infinite;
 }
+
 

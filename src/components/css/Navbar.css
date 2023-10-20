@@ -78,7 +78,15 @@
 
 .icon-svg:hover
 {
-    filter: invert(80%) sepia(10%) saturate(1280%) hue-rotate(179deg) brightness(99%) contrast(90%);
+    animation: cycleImgFilter 1s linear infinite;
+}
+
+
+@media screen and (max-width: 392px) {
+    .navbar-toggler
+    {
+        margin: auto;
+    }    
 }
 
 @media screen and (max-width:1200px) {
