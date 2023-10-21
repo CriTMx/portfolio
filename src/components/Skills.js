@@ -35,48 +35,48 @@ function Skills() {
         <div className="row">
             <div className="col-md-9">
                 <a id="skills">
-                    <h1 className="skills-h1 text-start display-4" id="skills">Skills</h1>
-                </a>
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="skillicons text-start">
-                            <img src={html} data-tooltip-id="tooltip-id" data-tooltip-content="HTML5"/>
-                            <img src={css} data-tooltip-id="tooltip-id" data-tooltip-content="CSS3"/>
-                            <img src={js} data-tooltip-id="tooltip-id" data-tooltip-content="JavaScript"/>
-                            <img src={bs} data-tooltip-id="tooltip-id" data-tooltip-content="Bootstrap"/>
-                            <img src={rct} data-tooltip-id="tooltip-id" data-tooltip-content="React.js"/>
-                            <img src={py} data-tooltip-id="tooltip-id" data-tooltip-content="Python"/>
-                            <img src={c} data-tooltip-id="tooltip-id" data-tooltip-content="C"/>
-                            <img src={cpp} data-tooltip-id="tooltip-id" data-tooltip-content="C++"/>
-                            <img src={cs} data-tooltip-id="tooltip-id" data-tooltip-content="C#"/>
-                            <img src={java} data-tooltip-id="tooltip-id" data-tooltip-content="Java"/>
-                            <img src={unity} data-tooltip-id="tooltip-id" data-tooltip-content="Unity Engine"/>
-                            <img src={dj} data-tooltip-id="tooltip-id" data-tooltip-content="Django"/>
-                            <img src={gt} data-tooltip-id="tooltip-id" data-tooltip-content="Git, GitHub"/>
-                            <img src={ps} data-tooltip-id="tooltip-id" data-tooltip-content="Adobe Photoshop"/>
-                            <Tooltip id="tooltip-id" />
+                    <h1 className="skills-h1 text-start display-4">Skills</h1>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="skillicons text-start">
+                                <img src={html} data-tooltip-id="tooltip-id" data-tooltip-content="HTML5"/>
+                                <img src={css} data-tooltip-id="tooltip-id" data-tooltip-content="CSS3"/>
+                                <img src={js} data-tooltip-id="tooltip-id" data-tooltip-content="JavaScript"/>
+                                <img src={bs} data-tooltip-id="tooltip-id" data-tooltip-content="Bootstrap"/>
+                                <img src={rct} data-tooltip-id="tooltip-id" data-tooltip-content="React.js"/>
+                                <img src={py} data-tooltip-id="tooltip-id" data-tooltip-content="Python"/>
+                                <img src={c} data-tooltip-id="tooltip-id" data-tooltip-content="C"/>
+                                <img src={cpp} data-tooltip-id="tooltip-id" data-tooltip-content="C++"/>
+                                <img src={cs} data-tooltip-id="tooltip-id" data-tooltip-content="C#"/>
+                                <img src={java} data-tooltip-id="tooltip-id" data-tooltip-content="Java"/>
+                                <img src={unity} data-tooltip-id="tooltip-id" data-tooltip-content="Unity Engine"/>
+                                <img src={dj} data-tooltip-id="tooltip-id" data-tooltip-content="Django"/>
+                                <img src={gt} data-tooltip-id="tooltip-id" data-tooltip-content="Git, GitHub"/>
+                                <img src={ps} data-tooltip-id="tooltip-id" data-tooltip-content="Adobe Photoshop"/>
+                                <Tooltip id="tooltip-id" />
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <ul className="ps-0 list-style-none text-start skills-text">
+                                <li className="list-group-item">
+                                    <p>Empathy</p>
+                                </li>
+                                <li className="list-group-item">
+                                    <p>Conflict resolution</p>
+                                </li>
+                                <li className="list-group-item">
+                                    <p>Teamwork & optimism</p>
+                                </li>
+                                <li className="list-group-item">
+                                    <p>Leadership & initiatives</p>
+                                </li>
+                                <li className="list-group-item">
+                                    <p>Careful decision making</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div className="col-md-6">
-                        <ul className="ps-0 list-style-none text-start skills-text">
-                            <li className="list-group-item">
-                                <p>Empathy</p>
-                            </li>
-                            <li className="list-group-item">
-                                <p>Conflict resolution</p>
-                            </li>
-                            <li className="list-group-item">
-                                <p>Teamwork & optimism</p>
-                            </li>
-                            <li className="list-group-item">
-                                <p>Leadership & initiatives</p>
-                            </li>
-                            <li className="list-group-item">
-                                <p>Careful decision making</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                </a>
             </div>
             <div className="col-md-3 particle-container mt-5 mb-5 pb-5 d-md-flex d-none" id="HKShadeCol">
                 <img src={HKAbyssShriek} width='300px'/>

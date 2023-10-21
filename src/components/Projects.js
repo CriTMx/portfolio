@@ -106,11 +106,12 @@ function Projects()
                 </div>
                 <div className="col-md-9 float-end">
                     <a id="projects">
-                        <h1 className="projects-h1 text-end display-4" id="projects">Projects</h1>
+                        <h1 className="projects-h1 text-end display-4">Projects</h1>
+                    
+                        <p className="projects-text text-end mb-3">
+                            Projects I'm working on or have completed over the years
+                        </p>
                     </a>
-                    <p className="projects-text text-end mb-3">
-                        Projects I'm working on or have completed over the years
-                    </p>
                     <div className="row justify-content-center">
                         <div className="col-md-6 proj-col">
                             <ul className="ps-0 list-style-none">
